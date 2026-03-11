@@ -1,3 +1,10 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -198,6 +205,13 @@ cython_debug/
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# Local env files
+.env.*
 .cursorignore
 .cursorindexingignore
 
